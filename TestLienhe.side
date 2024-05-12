@@ -1,0 +1,512 @@
+{
+  "id": "996541a0-5cf5-4534-ae30-4ac4f135eb3c",
+  "version": "2.0",
+  "name": "Lien he form",
+  "url": "https://taingheviet.com",
+  "tests": [{
+    "id": "70648a47-4569-46b9-823f-56c0a29263f9",
+    "name": "TC1",
+    "commands": [{
+      "id": "3fe1c539-0b26-4040-aee7-03491c3b63e1",
+      "comment": "",
+      "command": "open",
+      "target": "/contact.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4df544db-638e-49da-81b5-4dd58ea7611f",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9131582-409d-4ec9-8655-b41376bea126",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Nguyen Nghia"
+    }, {
+      "id": "15620213-174b-4046-9f9c-bdbdf7f71c7a",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "0123456789"
+    }, {
+      "id": "8c8f307d-632c-4fcb-a4f2-09b9c7a4af9a",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "abc@gmai.com"
+    }, {
+      "id": "b75596fe-7c14-4439-b5c1-a605be3c8914",
+      "comment": "",
+      "command": "type",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "Aaaaa"
+    }, {
+      "id": "2aef44aa-c96c-4bee-bb4b-b6e3aeff9790",
+      "comment": "",
+      "command": "type",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["name=content", "name"],
+        ["css=#content", "css:finder"],
+        ["xpath=//textarea[@id='content']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Bbbbb"
+    }, {
+      "id": "43fda842-1297-4a14-b5cc-63150ffdc627",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnSend",
+      "targets": [
+        ["name=btnSend", "name"],
+        ["css=.has-ripple", "css:finder"],
+        ["xpath=//button[@name='btnSend']", "xpath:attributes"],
+        ["xpath=//div[8]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'LIÊN HỆ NGAY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "38ecb180-30ea-4405-958f-3517b51ef270",
+    "name": "TC2",
+    "commands": [{
+      "id": "8d52f479-8001-4230-ac5b-a55dc8ac1198",
+      "comment": "",
+      "command": "open",
+      "target": "/contact.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "412e8761-e3c1-43a2-a54b-2455dda0d484",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1678x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d98d26b-be5e-4606-8499-1426c7d58dab",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2885e23-0ba7-4852-98cf-bdf3dcc45001",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c2089934-c697-405a-896f-a2e514265080",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eae9b1b4-4ef0-460a-9257-02ca746fd2b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["name=content", "name"],
+        ["css=#content", "css:finder"],
+        ["xpath=//textarea[@id='content']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8f85f0fb-f70f-4232-84ef-d4986be19487",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnSend",
+      "targets": [
+        ["name=btnSend", "name"],
+        ["css=.has-ripple", "css:finder"],
+        ["xpath=//button[@name='btnSend']", "xpath:attributes"],
+        ["xpath=//div[8]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'LIÊN HỆ NGAY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "95fd555c-937f-489d-bf24-94ff0aebdd2f",
+    "name": "TC3",
+    "commands": [{
+      "id": "f6d08d59-2d8e-4dbb-924f-14a13a5c323c",
+      "comment": "",
+      "command": "open",
+      "target": "/contact.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b7ebd70-701c-427d-85d6-f7ddfc16beb1",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1678x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "51e91e3b-89c0-499f-8a7e-48950e52c660",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb7125f5-3f73-4913-8739-c882e7a67428",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Nam Nguyen"
+    }, {
+      "id": "5d967791-21ef-47d7-b97d-187620f06134",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "                                  "
+    }, {
+      "id": "7c28f37c-8122-41fc-8c3c-06f9d166dc52",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "                                                                         "
+    }, {
+      "id": "48b4dab0-55ee-4ec9-af12-986cf96f6d57",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3fd78a76-aa30-4130-8fae-ec744fd25afa",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "abc@gmail.com"
+    }, {
+      "id": "41803d10-2da0-4b05-ba3b-86bf46bd7dde",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8af754fe-c90a-43fd-ab8a-c80bfae536ac",
+      "comment": "",
+      "command": "type",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "Aaaaa"
+    }, {
+      "id": "46ead32c-b1f5-4aa0-ad9b-6df5b8526ead",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["name=content", "name"],
+        ["css=#content", "css:finder"],
+        ["xpath=//textarea[@id='content']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6fe556fb-a8ac-4cd4-bb4a-3044ce320870",
+      "comment": "",
+      "command": "type",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["name=content", "name"],
+        ["css=#content", "css:finder"],
+        ["xpath=//textarea[@id='content']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Bbbbbbbb"
+    }, {
+      "id": "6b7d192d-b327-4942-8cd9-d8a4f37a3370",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnSend",
+      "targets": [
+        ["name=btnSend", "name"],
+        ["css=.has-ripple", "css:finder"],
+        ["xpath=//button[@name='btnSend']", "xpath:attributes"],
+        ["xpath=//div[8]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'LIÊN HỆ NGAY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "d52315d6-dc70-4b81-9b36-05c04650bd63",
+    "name": "TC4",
+    "commands": [{
+      "id": "5f80116b-d4cd-4c40-9faf-55c9dda63bae",
+      "comment": "",
+      "command": "open",
+      "target": "/contact.html",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02b705d0-de36-4ea8-b9b7-4993e136d845",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1678x1056",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42761ecf-1522-4d40-b0b5-b6b83ee1e4c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eff0ee0f-7386-44fe-985d-e8ed7e8d4cc5",
+      "comment": "",
+      "command": "type",
+      "target": "id=name",
+      "targets": [
+        ["id=name", "id"],
+        ["name=name", "name"],
+        ["css=#name", "css:finder"],
+        ["xpath=//input[@id='name']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Phuong Nguyen"
+    }, {
+      "id": "b2fc609a-755e-4bef-b35f-0efcd5997a22",
+      "comment": "",
+      "command": "click",
+      "target": "id=phone",
+      "targets": [
+        ["id=phone", "id"],
+        ["name=phone", "name"],
+        ["css=#phone", "css:finder"],
+        ["xpath=//input[@id='phone']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "                                  "
+    }, {
+      "id": "cfc15b20-9de6-42d2-84e8-b62be57fb356",
+      "comment": "",
+      "command": "type",
+      "target": "id=phone",
+      "targets": [],
+      "value": "0123456789                                           "
+    }, {
+      "id": "e6e3de57-2ccc-460d-9dde-f1b28129667e",
+      "comment": "",
+      "command": "click",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "616e7668-c0ca-4136-be12-9a526cdfbecc",
+      "comment": "",
+      "command": "type",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//div[4]/div/input", "xpath:position"]
+      ],
+      "value": "abcgmail.com"
+    }, {
+      "id": "ea593c4f-a6c0-4a33-951f-9be83112a3ae",
+      "comment": "",
+      "command": "click",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f775bf3e-1617-4eec-a8d7-abf0ad523550",
+      "comment": "",
+      "command": "type",
+      "target": "id=title",
+      "targets": [
+        ["id=title", "id"],
+        ["name=title", "name"],
+        ["css=#title", "css:finder"],
+        ["xpath=//input[@id='title']", "xpath:attributes"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "Aaaaa"
+    }, {
+      "id": "5e13991f-e220-4a3f-adbb-b7afbddce814",
+      "comment": "",
+      "command": "click",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["name=content", "name"],
+        ["css=#content", "css:finder"],
+        ["xpath=//textarea[@id='content']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fca717e-6825-411a-97d7-4dd7dec622aa",
+      "comment": "",
+      "command": "type",
+      "target": "id=content",
+      "targets": [
+        ["id=content", "id"],
+        ["name=content", "name"],
+        ["css=#content", "css:finder"],
+        ["xpath=//textarea[@id='content']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Bbbbbbbb"
+    }, {
+      "id": "12c7c897-c892-4028-9c5a-f9ac9ce2e66b",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnSend",
+      "targets": [
+        ["name=btnSend", "name"],
+        ["css=.has-ripple", "css:finder"],
+        ["xpath=//button[@name='btnSend']", "xpath:attributes"],
+        ["xpath=//div[8]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'LIÊN HỆ NGAY')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "76c335ab-4e93-4862-8ece-5a186771539c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://taingheviet.com/"],
+  "plugins": []
+}
