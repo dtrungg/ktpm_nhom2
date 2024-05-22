@@ -1,0 +1,437 @@
+{
+  "id": "6c0ae763-411e-49fa-96cf-4cdc6c317c11",
+  "version": "2.0",
+  "name": "TestLogin",
+  "url": "https://taingheviet.com/login",
+  "tests": [{
+    "id": "1f2b84d6-4b0a-4eda-b324-524812e6ed52",
+    "name": "TC2",
+    "commands": [{
+      "id": "11c8ee06-caba-418b-80d6-d1b4b1a5f5eb",
+      "comment": "",
+      "command": "open",
+      "target": "https://taingheviet.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "97e2da18-74e9-45a4-846a-bbb9b29275a5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "812x856",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "337f52f2-0c42-47b6-8f9c-fc9605e69272",
+      "comment": "",
+      "command": "click",
+      "target": "name=user_name",
+      "targets": [
+        ["name=user_name", "name"],
+        ["css=.form-row:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_name']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48c27b7f-d588-48ba-8c13-5e18ae6601e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-row:nth-child(3)",
+      "targets": [
+        ["css=.form-row:nth-child(3)", "css:finder"],
+        ["xpath=//form/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "91c02dbd-ee59-48a2-99c7-380f7039561c",
+      "comment": "",
+      "command": "click",
+      "target": "name=user_pass",
+      "targets": [
+        ["name=user_pass", "name"],
+        ["css=.form-row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d25ef8ff-bbdf-4a99-b83e-93b8b6d7d1d6",
+      "comment": "",
+      "command": "type",
+      "target": "name=user_pass",
+      "targets": [
+        ["name=user_pass", "name"],
+        ["css=.form-row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "nam2002@"
+    }, {
+      "id": "833dbdfa-3b1a-4015-8e40-bd79180c5cd6",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnLogin",
+      "targets": [
+        ["name=btnLogin", "name"],
+        ["css=.px-5", "css:finder"],
+        ["xpath=//button[@name='btnLogin']", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7e2ad8ab-2317-46cc-91bd-95e5f5fc77ae",
+    "name": "TC3",
+    "commands": [{
+      "id": "d592dffa-8601-4bf0-ab00-1614a0fcd5d8",
+      "comment": "",
+      "command": "open",
+      "target": "https://taingheviet.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "12b987a2-c706-4805-879a-ad34d9fc9d4a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "812x856",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6c05f529-a0df-449f-86c9-5997f994ea09",
+      "comment": "",
+      "command": "click",
+      "target": "name=user_name",
+      "targets": [
+        ["name=user_name", "name"],
+        ["css=.form-row:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_name']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f220b36c-99b6-4ccc-83f7-b4911d76fb6e",
+      "comment": "",
+      "command": "type",
+      "target": "name=user_name",
+      "targets": [
+        ["name=user_name", "name"],
+        ["css=.form-row:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_name']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "namnguyentest123"
+    }, {
+      "id": "a3181ca9-16c9-4716-84d8-75d362ef4ef1",
+      "comment": "",
+      "command": "click",
+      "target": "name=user_pass",
+      "targets": [
+        ["name=user_pass", "name"],
+        ["css=.form-row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23a5f5fd-c494-41ae-9897-280e80069356",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=btnLogin",
+      "targets": [
+        ["name=btnLogin", "name"],
+        ["css=.px-5", "css:finder"],
+        ["xpath=//button[@name='btnLogin']", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5b74c12-c845-41af-8c65-e67e5188201f",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnLogin",
+      "targets": [
+        ["name=btnLogin", "name"],
+        ["css=.px-5", "css:finder"],
+        ["xpath=//button[@name='btnLogin']", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b114496-457a-440e-be55-253f66d4ef9d",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "name=btnLogin",
+      "targets": [
+        ["name=btnLogin", "name"],
+        ["css=.px-5", "css:finder"],
+        ["xpath=//button[@name='btnLogin']", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0ba28308-6074-4dc8-89b2-5fbb402cfd81",
+    "name": "TC4",
+    "commands": [{
+      "id": "9e8b6f31-ac5c-448a-986e-8b7568174f22",
+      "comment": "",
+      "command": "open",
+      "target": "https://taingheviet.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e4dca989-629e-480d-82a2-ac7175afa838",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "812x856",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d41a695d-d631-4536-ad67-94cfc93a4ceb",
+      "comment": "",
+      "command": "click",
+      "target": "name=user_name",
+      "targets": [
+        ["name=user_name", "name"],
+        ["css=.form-row:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_name']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5004b41-f838-4f53-a1a5-f2520ed723b8",
+      "comment": "",
+      "command": "type",
+      "target": "name=user_name",
+      "targets": [
+        ["name=user_name", "name"],
+        ["css=.form-row:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_name']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "namnguyentest123123"
+    }, {
+      "id": "b276a819-25c5-4a42-abd7-2d8dd3f27f2d",
+      "comment": "",
+      "command": "click",
+      "target": "name=user_pass",
+      "targets": [
+        ["name=user_pass", "name"],
+        ["css=.form-row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1be592ef-4230-4477-bbd5-e82de632dd0c",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "name=btnLogin",
+      "targets": [
+        ["name=btnLogin", "name"],
+        ["css=.px-5", "css:finder"],
+        ["xpath=//button[@name='btnLogin']", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ff742cf-60a0-4515-86f7-3644e44e3014",
+      "comment": "",
+      "command": "type",
+      "target": "name=user_pass",
+      "targets": [
+        ["name=user_pass", "name"],
+        ["css=.form-row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "nam2002@"
+    }, {
+      "id": "27693885-a21c-4cdc-a100-f585ea0419ec",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnLogin",
+      "targets": [
+        ["name=btnLogin", "name"],
+        ["css=.px-5", "css:finder"],
+        ["xpath=//button[@name='btnLogin']", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7369102a-64ab-4261-93dc-705dd947e667",
+    "name": "TC5",
+    "commands": [{
+      "id": "26b8c83c-9dc2-42e2-b0d3-824227f2d2c4",
+      "comment": "",
+      "command": "open",
+      "target": "https://taingheviet.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "111ca175-5944-4ce3-a0ca-328ba6b508f6",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "812x856",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "da658302-f687-4305-8985-dd21c4799bf9",
+      "comment": "",
+      "command": "click",
+      "target": "name=user_name",
+      "targets": [
+        ["name=user_name", "name"],
+        ["css=.form-row:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_name']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c32568f-0c95-41ad-9002-60f20093db88",
+      "comment": "",
+      "command": "type",
+      "target": "name=user_name",
+      "targets": [
+        ["name=user_name", "name"],
+        ["css=.form-row:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_name']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "namnguyentest123"
+    }, {
+      "id": "a9284047-ac09-432c-acea-6b629e52a15a",
+      "comment": "",
+      "command": "click",
+      "target": "name=user_pass",
+      "targets": [
+        ["name=user_pass", "name"],
+        ["css=.form-row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "411f138d-e2f4-466d-ba2e-3d6ef64a291f",
+      "comment": "",
+      "command": "type",
+      "target": "name=user_pass",
+      "targets": [
+        ["name=user_pass", "name"],
+        ["css=.form-row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "nam2002@12"
+    }, {
+      "id": "60a00e46-99a4-4c2f-8c2a-b23b611f39f7",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnLogin",
+      "targets": [
+        ["name=btnLogin", "name"],
+        ["css=.px-5", "css:finder"],
+        ["xpath=//button[@name='btnLogin']", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "602b992b-7948-47b3-94c9-10b0d1929665",
+    "name": "TC1",
+    "commands": [{
+      "id": "21bce673-d0fb-437c-a445-49d8cb2d3b3c",
+      "comment": "",
+      "command": "open",
+      "target": "https://taingheviet.com/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "36e0e4b3-b233-4d41-82a0-3dbc56a7fd40",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "812x856",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df9415f4-a5f9-44d7-874c-dae7a6139c80",
+      "comment": "",
+      "command": "click",
+      "target": "name=user_name",
+      "targets": [
+        ["name=user_name", "name"],
+        ["css=.form-row:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_name']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22b8a573-a0cf-42b1-b19a-cff66200d8ed",
+      "comment": "",
+      "command": "type",
+      "target": "name=user_name",
+      "targets": [
+        ["name=user_name", "name"],
+        ["css=.form-row:nth-child(1) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_name']", "xpath:attributes"],
+        ["xpath=//div/div/input", "xpath:position"]
+      ],
+      "value": "namnguyentest123"
+    }, {
+      "id": "e73726a4-96f5-468f-b4b1-590472725639",
+      "comment": "",
+      "command": "click",
+      "target": "name=user_pass",
+      "targets": [
+        ["name=user_pass", "name"],
+        ["css=.form-row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d969bccf-8fb2-4045-9fb9-5e08177c93f3",
+      "comment": "",
+      "command": "type",
+      "target": "name=user_pass",
+      "targets": [
+        ["name=user_pass", "name"],
+        ["css=.form-row:nth-child(2) .form-control", "css:finder"],
+        ["xpath=//input[@name='user_pass']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "nam2002@"
+    }, {
+      "id": "f527596e-c761-4859-a4de-2651425bcb0f",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnLogin",
+      "targets": [
+        ["name=btnLogin", "name"],
+        ["css=.px-5", "css:finder"],
+        ["xpath=//button[@name='btnLogin']", "xpath:attributes"],
+        ["xpath=//div[4]/div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Đăng nhập')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5fc3fb7c-c7a9-48e8-9472-d2aec7cb0e97",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://taingheviet.com/login"],
+  "plugins": []
+}
