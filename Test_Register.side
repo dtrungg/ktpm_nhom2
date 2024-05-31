@@ -207,7 +207,7 @@
         ["xpath=//input[@name='fullname']", "xpath:attributes"],
         ["xpath=//div[5]/div/input", "xpath:position"]
       ],
-      "value": "Nguyễn Quốc Khánh"
+      "value": "Nguyễn Phạm Việt Đức"
     }, {
       "id": "70f0111a-80d1-48a7-8e41-665149dfb75b",
       "comment": "",
@@ -731,7 +731,7 @@
         ["xpath=//input[@name='fullname']", "xpath:attributes"],
         ["xpath=//div[5]/div/input", "xpath:position"]
       ],
-      "value": "Nguyễn Quốc Khánh"
+      "value": "Nguyễn Phạm Việt Đức"
     }, {
       "id": "0dda7902-669e-46fc-b07d-2312222afca0",
       "comment": "",
@@ -860,17 +860,6 @@
       ],
       "value": ""
     }, {
-      "id": "b8e75b6f-6e42-4c3b-84e7-5d8c7af43632",
-      "comment": "",
-      "command": "mouseOver",
-      "target": "css=.navbar-nav:nth-child(1) > li:nth-child(2) > .link-unstyled > .d-block",
-      "targets": [
-        ["css=.navbar-nav:nth-child(1) > li:nth-child(2) > .link-unstyled > .d-block", "css:finder"],
-        ["xpath=//li[2]/a/span", "xpath:position"],
-        ["xpath=//span[contains(.,'Dịch vụ Sửa chữa')]", "xpath:innerText"]
-      ],
-      "value": ""
-    }, {
       "id": "c8a16c0f-f784-4712-9700-1cdda3dd7087",
       "comment": "",
       "command": "type",
@@ -929,7 +918,7 @@
         ["xpath=//input[@name='fullname']", "xpath:attributes"],
         ["xpath=//div[5]/div/input", "xpath:position"]
       ],
-      "value": "Nguyễn Quốc Khánh"
+      "value": "Nguyễn Phạm Việt Đức"
     }, {
       "id": "2a6048f4-033f-4acf-a73e-3135fbb17dcc",
       "comment": "",
@@ -1311,7 +1300,7 @@
         ["xpath=//input[@name='fullname']", "xpath:attributes"],
         ["xpath=//div[5]/div/input", "xpath:position"]
       ],
-      "value": "Nguyễn Quốc Khánh"
+      "value": "Nguyễn Phạm Việt Đức"
     }, {
       "id": "6fbe0806-81f6-4578-91cc-c73091ed3a18",
       "comment": "",
@@ -1594,7 +1583,7 @@
         ["xpath=//input[@name='fullname']", "xpath:attributes"],
         ["xpath=//div[5]/div/input", "xpath:position"]
       ],
-      "value": "Nguyễn Quốc Khánh"
+      "value": "Nguyễn Phạm Việt Đức"
     }, {
       "id": "4caf4323-ce89-462d-979c-bb3b8ab3f2d7",
       "comment": "",
@@ -1978,7 +1967,7 @@
         ["xpath=//input[@name='fullname']", "xpath:attributes"],
         ["xpath=//div[5]/div/input", "xpath:position"]
       ],
-      "value": "Nguyễn Quốc Khánh"
+      "value": "Nguyễn Phạm Việt Đức"
     }, {
       "id": "c9d14d1a-873f-4626-9abb-653dd5af5cad",
       "comment": "",
@@ -2460,7 +2449,7 @@
         ["xpath=//input[@name='fullname']", "xpath:attributes"],
         ["xpath=//div[5]/div/input", "xpath:position"]
       ],
-      "value": "Nguyễn Quốc Khánh"
+      "value": "Nguyễn Phạm Việt Đức"
     }, {
       "id": "0897872e-e634-4b2e-a2e5-230faff1f206",
       "comment": "",
@@ -2723,6 +2712,6 @@
     "timeout": 300,
     "tests": ["2c21debc-536b-41f8-b44e-d55602c5c8c4"]
   }],
-  "urls": ["https://taingheviet.com/"],
+  "urls": ["https://taingheviet.com/", "https://taingheviet.com/register"],
   "plugins": []
 }
